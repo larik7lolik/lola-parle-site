@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep \"\\\\.html$\")",
+      "Bash(mkdir -p \"/home/larisa/client-outreach-agent/lola-parle-site/github-pages\")",
+      "Bash(mkdir -p \"/home/larisa/client-outreach-agent/lola-parle-site/github-pages/assets/images\")",
+      "Bash(mkdir -p \"/home/larisa/client-outreach-agent/lola-parle-site/github-pages/assets/css\")",
+      "Bash(mkdir -p \"/home/larisa/client-outreach-agent/lola-parle-site/github-pages/assets/js\")",
+      "Bash(cp -r \"/home/larisa/client-outreach-agent/lola-parle-site/Тильда_files/\"*.png \"/home/larisa/client-outreach-agent/lola-parle-site/github-pages/assets/images/\")",
+      "Bash(cp -r \"/home/larisa/client-outreach-agent/lola-parle-site/Тильда_files/\"*.jpg \"/home/larisa/client-outreach-agent/lola-parle-site/github-pages/assets/images/\")"
+    ]
+  }
+}
