@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Контакты школы Lola Parle - все способы связи с нами">
+  <title>Контакты | Lola Parle</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">
+          <span class="brand-logo">Lola Parle</span>
+          <span class="brand-tagline">Французский язык онлайн</span>
+        </a>
+        <button class="navbar-toggler" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li><a href="index.html#about" class="nav-link">О школе</a></li>
+          <li><a href="index.html#programs" class="nav-link">Программы</a></li>
+          <li><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li><a href="reviews.html" class="nav-link">Отзывы</a></li>
+          <li><a href="contacts.html" class="nav-link active">Контакты</a></li>
+          <li><a href="index.html#booking" class="nav-link btn btn-primary">Записаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="section-title fade-in-up">Контакты</h1>
+        <p class="section-subtitle fade-in-up delay-1">Свяжитесь с нами любым удобным способом</p>
+      </div>
+
+      <div class="grid grid-2 mt-xl">
+        <div class="card fade-in-up delay-1" data-scroll-animate>
+          <h3>📧 Email</h3>
+          <p>
+            <a href="mailto:info@lola-parle.ru">info@lola-parle.ru</a><br>
+            <small>Ответим в течение 24 часов</small>
+          </p>
+        </div>
+
+        <div class="card fade-in-up delay-2" data-scroll-animate>
+          <h3>📱 Телефон</h3>
+          <p>
+            <a href="tel:+7">Позвоните нам</a><br>
+            <small>Доступны в рабочие часы</small>
+          </p>
+        </div>
+
+        <div class="card fade-in-up delay-3" data-scroll-animate>
+          <h3>💬 Telegram</h3>
+          <p>
+            <a href="https://t.me/lolaparle" target="_blank">@lolaparle</a><br>
+            <small>Быстрый ответ</small>
+          </p>
+        </div>
+
+        <div class="card fade-in-up delay-4" data-scroll-animate>
+          <h3>📍 Адрес</h3>
+          <p>
+            Москва, Россия<br>
+            <small>Занятия проводятся онлайн</small>
+          </p>
+        </div>
+      </div>
+
+      <div class="booking-form mt-xl fade-in-up">
+        <h2>Отправить сообщение</h2>
+        <form id="contactForm" class="form">
+          <div class="form-group full">
+            <label for="name">Ваше имя *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+
+          <div class="form-group full">
+            <label for="subject">Тема сообщения</label>
+            <input type="text" id="subject" name="subject">
+          </div>
+
+          <div class="form-group full">
+            <label for="message">Сообщение *</label>
+            <textarea id="message" name="message" required placeholder="Расскажите, как мы можем вам помочь..."></textarea>
+          </div>
+
+          <div class="js-errorbox-all form-error" style="display: none;"></div>
+          <div class="js-successbox form-success" style="display: none;"></div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; text-align: center;">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Lola Parle</h4>
+          <p>Онлайн-школа французского языка</p>
+        </div>
+        <div class="footer-section">
+          <h4>Быстрые ссылки</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="pricing.html">Цены</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Информация</h4>
+          <ul class="list-unstyled">
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            <li><a href="contacts.html">Связаться с нами</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <p>
+            📧 <a href="mailto:info@lola-parle.ru">info@lola-parle.ru</a><br>
+            📍 Москва, Россия
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Lola Parle. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-to-top" title="Вернуться в начало">↑ Вверх</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
